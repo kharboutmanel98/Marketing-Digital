@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'open sans' , sans-serif;
+}
+.header{
+    height: 70px;
+    width: 90%;
+    max-width: 1920px;
+    margin: 0px auto;
+   
+}
+.header .logo{
+    float: left;
+    line-height: 70px;
+}
+.header .navbar{
+    float: right; 
+    width: 50%;  
+}
+.header .navbar ul{
+    float: left;
+    line-height: 70px;
+}
+.header .navbar ul li{
+    float: left; 
+    list-style: none;
+    margin: 0px 30px;
+    cursor: pointer;
+       
+}
+.header .navbar ul li a {
+    text-decoration: none;
+    color:black;
+    padding: 25px 0;
+     
+    }
+.header .navbar ul li a:hover {
+    border-bottom: 2px solid #c4c4f8;
+}
+.header .navbar .signup {
+    float: right; 
+    line-height: 70px;
+    
+}
+.header .navbar .signup button {
+   background-color: rgb(181, 141, 218);
+   padding: 6px 10px;
+   border: none;
+   cursor: pointer;
+   border-radius: 25px;
+   text-transform: uppercase;
+}
+.main{
+    width: 90%;
+    max-width: 1920px;
+    height: 800px;
+    margin: 70px auto 0 auto;
+  
+}
+.main .section-content{
+    width: 50%;
+    float: left;
+   margin-bottom: 176px;
+}
+.main .section-content .title h1{
+    font-weight: 600;
+    font-size: 54px;
+    color: #113a4e;
+}
+.main .section-content .title h3{
+    font-weight: 300;
+    font-size: 38px;
+    color: #fba70b;
+}
+.main .section-content .description{
+    width: 650px;
+    margin: 40px 0px 72px 0px;
+}
+.main .section-content .description p{
+    line-height: 35px;
+    color: rgb(180, 158, 158);
+} 
+.main .section-content .learn-more a{
+   padding: 10px 30px;
+   background-color: #4c4cf8;
+   color: #ffff;
+   text-decoration: none;
+   border-radius: 50px;
+}
+.main .img-right {
+    float: right;
+}
+.main .img-right img {
+    width: 600px;
+    margin-top: 30px;
+
+}
